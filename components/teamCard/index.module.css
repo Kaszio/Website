@@ -1,0 +1,131 @@
+.cardImg img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    border-radius: 10px;
+}
+.card{
+    box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
+    height: 100%;
+    width: 100%;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+p.intro{
+    margin-bottom: 13px !important;
+}
+a.readMoreLink h4{
+    font-weight: 600 !important;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 0.9em;
+    text-align: left;
+    color: #313457;
+}
+a.readMoreLink{
+    text-decoration: none;
+    cursor: pointer;
+}
+.icon{
+    height: 18px;
+    width: 18px;
+    margin: 4px;
+}
+.nameSection{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 0px !important;
+}
+.nameSection h5{
+    float: left ;
+    text-align: left;
+    margin-left: 0px;
+    margin-bottom: 0px !important;
+    font-family: Montserrat, sans-serif;
+    color: #313457;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.1em;
+}
+.icons{
+    float: right;
+    text-align: right;
+    margin-right: auto;
+}
+.card h4{
+    margin: 0em auto 0em 0px;
+    font-family: Montserrat, sans-serif;
+    color: #313457;
+    font-size: 1em;
+    font-weight: 500 !important;
+    line-height: 1.4em;
+    text-align: left;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.card p{
+    margin: 0.2em auto 0em 0px;
+    font-family: Montserrat, sans-serif;
+    color: rgba(49, 52, 87, 0.6);
+    font-size: 0.9em;
+    line-height: 1.5em;
+    text-align: left;
+    font-weight: normal;
+    /* margin-bottom: 30px; */
+    margin-top: -12px;
+}
+
+@media (max-width: 991.98px) {
+    .card h4{
+        margin: 0.2em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+        color: #313457;
+        font-size: 0.8em;
+        line-height: 1.1em;
+        text-align: left;
+        font-weight: 500 !important;
+        margin-bottom: 30px;
+    }
+    .card p{
+        margin: 0.2em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+        color: #313457;
+        font-size: 0.8em;
+        line-height: 1.7em;
+        text-align: left;
+        font-weight: normal;
+        margin-bottom: 30px;
+        margin-top: -20px !important;
+    }
+    p.intro{
+        margin-bottom: 20px !important;
+    }
+}
+@media (max-width: 767.98px) {
+    .card h4{
+        margin: 0.1em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+        color: #313457;
+        font-size: 0.8em;
+        line-height: 1.5em;
+        text-align: left;
+        font-weight: 500 !important;
+        margin-bottom: 30px;
+    }
+    .card p{
+        margin: 0.1em auto 0em 0px;
+        font-family: Montserrat, sans-serif;
+        color: #313457;
+        font-size: 0.7em;
+        line-height: 1.7em;
+        text-align: left;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+    a.readMoreLink h4{
+        font-size: 0.7em;
+    }
+    p.intro{
+        margin-bottom: 20px !important;
+    }
+ }

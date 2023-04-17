@@ -1,0 +1,138 @@
+.partnerImg img{
+    width: 100% !important;
+    height: 40px !important;
+}
+
+.partnerImg{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.partnerImg2 img{
+    width: 100% !important;
+    height: 40px !important;
+}
+
+.partnerImg2{
+    max-height: 55px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+.splider1{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.splider2{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+
+
+
+.appCard{
+    background: #FFFFFF;
+    box-shadow: 7.74807px 7.74807px 18.7404px 4.87404px rgba(43, 97, 209, 0.05);
+    border-radius: 9.37018px;
+    height: 200px;
+    width: 200px;
+    padding: 20px 20px;
+    padding-top: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.appCard a{
+    border: 1.49923px solid rgba(152, 167, 185, 0.25);
+    border-radius: 9.37018px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.9907px;
+    line-height: 150%;
+    /* or 27px */
+
+    text-align: center;
+    letter-spacing: -0.011em;
+    display: block;
+    width: 100%;
+    color: #98A7B9;
+    padding: 14px 0px;
+    margin-top: 30px;
+    transition: all .2s ease-in-out;
+}
+.appCard a:hover{
+        /* animation: pulse 1s infinite;
+        transition: .3s; */
+        transform: scale(1.1); 
+       
+}
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
+.appCard div{
+    border-radius: 100px;
+    background: #FFFFFF;
+    box-shadow: 11.2442px 11.2442px 18.7404px 1.49923px rgba(43, 97, 209, 0.1);
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.appCard div img{
+    width: 40px !important;
+    height: 40px !important;
+}
+
+@media (max-width: 991.98px) {
+    .partnerImg img{
+        width: 100% !important;
+        height: 30px !important;
+    }
+    .partnerImg2 img{
+        width: 120px !important;
+        height: auto !important;
+    }
+    .appCard div img{
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .appCard{
+        width: 170px;
+        height: 170px;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 575.98px){
+    .partnerImg img{
+        width: 100% !important;
+        height: 25px !important;
+    }
+    .splider{
+        width: fit-content !important;
+    }
+    .partnerImg2 img{
+        width: 100px !important;
+        height: 40px !important;
+        object-fit: contain !important;
+    }
+  
+   
+}

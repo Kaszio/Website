@@ -1,0 +1,278 @@
+.costCard{
+    background-color: #2B61D1 ;
+    box-shadow: 3.74807px 3.74807px 18.7404px 1.87404px rgba(43, 97, 209, 0.1); 
+    border-radius: 18.7404px ;
+    width: fit-content !important;
+    margin: auto;
+    transition: background-color 10000ms linear !important;;
+}
+
+.header{
+    padding: 10px 20px;
+}
+
+.header h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30.9815px;
+    line-height: 150%;
+    /* identical to box height, or 54px */
+
+    letter-spacing: -0.011em;
+
+    color: #FFFFFF;
+
+}
+.header p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.9923px;
+    line-height: 125%;
+    /* identical to box height, or 19px */
+
+    letter-spacing: -0.011em;
+    margin-bottom: 0px !important;
+    color: #FFFFFF !important;
+    width: 100%;
+}
+
+.content{
+    background: #FFFFFF;
+    padding: 30px 30px;
+    border-radius: 0px 0px 18.7404px 18.7404px;
+}
+
+
+
+.content h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.9923px;
+    line-height: 150%;
+
+    text-align: center;
+    letter-spacing: -0.011em;
+    text-transform: uppercase;
+
+    color: #2B61D1;
+    background: #F9FBFF;
+    border-radius: 26.2365px;
+    padding: 10px;
+}
+
+.priceList{
+    border-bottom: 0.374807px solid #98A7B9;
+}
+
+.priceList .price{
+    float: right;
+    margin-bottom: -20px !important;
+}
+.priceList .logo{
+    margin-bottom: -20px !important;
+}
+.priceList .price p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.9923px;
+    line-height: 150%;
+
+    text-align: right;
+    letter-spacing: -0.011em;
+    width: 100%;
+    color: #98A7B9;
+}
+
+.priceList .price h6{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 25.9815px;
+line-height: 110%;
+text-align: right;
+letter-spacing: -0.011em;
+margin-bottom: 0px;
+color: #98A7B9;
+
+}
+.priceList .logo img{
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.priceList .logo div{
+    background: #FFFFFF;
+    box-shadow: 11.2442px 11.2442px 18.7404px 1.49923px rgba(0, 0, 0, 0.1);
+    padding: 7px;
+    border-radius: 100px;
+    width: fit-content;
+    height: fit-content;
+    margin-right:  20px;
+}
+
+.priceList .logo{
+    display: inline-flex;
+    align-items: center;
+}
+.priceList .logo h6{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15.9907px;
+    /* line-height: 200%; */
+    letter-spacing: -0.011em;
+    color: #303B52;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991.98px) {
+    .header h4{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25.9815px;
+        line-height: 150%;
+        /* identical to box height, or 54px */
+    
+        letter-spacing: -0.011em;
+    
+        color: #FFFFFF;
+    
+    }
+    .header p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12.9923px;
+        line-height: 125%;
+        /* identical to box height, or 19px */
+    
+        letter-spacing: -0.011em;
+       margin-bottom: 0px;
+        color: #FFFFFF;
+    
+    }
+
+    .content h5{
+        font-weight: 600;
+        font-size: 11.9923px;
+        line-height: 150%;
+    }
+
+    .priceList .price p{
+        font-weight: 400;
+        font-size: 10.9923px;
+        line-height: 150%;
+        letter-spacing: -0.011em;
+    }
+    
+    .priceList .price h6{
+    font-weight: 700;
+    font-size: 20.9815px;
+    line-height: 110%;
+    text-align: right;
+    letter-spacing: -0.011em;
+    
+    }
+    .priceList .logo h6{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12.9907px;
+        /* line-height:250%; */
+        letter-spacing: -0.011em;
+        color: #303B52;
+    }
+    .priceList .logo div{
+        margin-right: 14px;
+    }
+}
+
+@media (max-width: 767.98px) { 
+    .header h4{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19.9815px;
+        line-height: 120%;
+        /* identical to box height, or 54px */
+    
+        letter-spacing: -0.011em;
+    
+        color: #FFFFFF;
+    
+    }
+    .header p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 135%;
+        /* identical to box height, or 19px */
+    
+        letter-spacing: -0.011em;
+       margin-bottom: 0px;
+        color: #FFFFFF;
+    
+    }
+
+    .content{
+        padding: 30px 20px;
+    }
+
+    .priceList .price p{
+        font-weight: 400;
+        font-size: 8.9923px;
+        line-height: 150%;
+        letter-spacing: -0.011em;
+    }
+    
+    .priceList .price h6{
+    font-weight: 700;
+    font-size: 18.9815px;
+    line-height: 110%;
+    text-align: right;
+    letter-spacing: -0.011em;
+    
+    }
+    .priceList .logo div{
+        margin-right: 10px;
+    }
+    .priceList .logo h6{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11.9907px;
+        /* line-height:400%; */
+        letter-spacing: -0.011em;
+        color: #303B52;
+    }
+    .priceList .price{
+        float: right;
+        margin-bottom: 10px !important;
+    }
+    .priceList .logo{
+        margin-bottom: 10px !important;
+    }
+    .costCard{
+        border-radius: 12px ;
+    }
+    .content{
+        border-radius: 0px 0px 12px 12px;
+    }
+}

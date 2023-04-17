@@ -1,0 +1,139 @@
+.footer{
+    background-color: #0a0d12;
+    padding: 80px 10px;
+
+}
+
+.footer h6{
+    width: 90%;
+    margin-top: 2em;
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.77);
+    font-size: 0.8em;
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+
+}
+
+.icons{
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    filter: brightness(147%);
+    width: 80%;
+}
+
+.icons img{
+    height: 17px;
+    width: 17px;
+    margin: 10px;
+}
+
+.btn{
+    padding: 0.8em 0px;
+    align-items: center;
+    border-radius: 0.2em;
+    background-color: rgba(217, 219, 233, 0.06);
+    box-shadow: 0 3px 12px 0 rgb(0 0 0 / 4%);
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    font-size: 0.8em;
+}
+.btn:hover{
+    color: #fff;
+}
+
+.footer h5{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.footer ul{
+    list-style-type: none;
+    margin-left: -30px;
+}
+.footer ul li {
+    color: rgba(255, 255, 255, 0.56);
+    font-size: 0.8em;
+    padding: 0.5em 0px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+.footer ul li a{
+    color: rgba(255, 255, 255, 0.56);
+    font-size: 1em;
+  
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+.footer ul li a:hover{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.footer h3{
+    font-size: 0.8em;
+    line-height: 1.5;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.56);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.footer h3 a{
+    font-size: 0.9em;
+    line-height: 1.5;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.56);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+.footerSubSection{
+    border-top: 1px solid rgba(245, 245, 250, 0.194);
+    padding-top: 30px;
+}
+
+
+
+
+@media screen and (max-width: 991px){
+.footer h6{
+    width: 80%;
+    font-size: 1em;
+}
+.footer h5{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+}
+}
+
+@media screen and (max-width: 767px){
+.footer h6 {
+    width: 100%;
+    font-size: 1em;
+}
+.footer h5{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width: 479px){
+.footer h6 {
+    font-size: 0.9em;
+}
+.icons{
+    width: 90%;
+}
+.footer h5{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+}
+
+}
